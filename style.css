@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(house-signature-sans-font/hsf.ttf);
+}
+
+@font-face {
+    font-family: 'yuyu';
+    src: url(midwinter-font/Midwinter-qZ3g5.ttf);
+}
+
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'myFont';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 800;
+    float: left;
+    color: #2C3639;
+    text-decoration: none;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a :hover {
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.t1 {
+    font-size: 70px;
+}
+
+.tbl {
+    background: #2C3639;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 15px 50px 15px 50px;
+    color: #3F4E4F;
+    cursor: pointer;
+    font-weight: bold;
+}
+.tbl:hover {
+    background: #ced4d6;
+    text-decoration: none;
+}
+
+.img1 {
+    margin-top: 100px;
+}
+
+li:hover {
+    background: wheat;
+    text-decoration: none;
+}
+
+.c-item {
+    height: 600px;
+   
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 85%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .nftcollection img {
+        width: 50%;
+    }
+}
+
+.map-integration {
+    display: flex;
+    flex-direction: column;
+}
+
+.map1 {
+    text-align: center;
+    font-family: yuyu;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.map11 {
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.map2 {
+    width: 100%;
+
+}
+
+.ket {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.ad {
+    width: 400px;
+    height: 400px;
+}
+
+.bh {
+    width: 400px;
+    height: 400px;
+}
+
+.adress {
+    font-family: yuyu;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.tbl-a {
+    background-color: lightgreen;
+    width:200px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.tbl-a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.adress1 {
+    color: black;
+    font-size: 25PX;
+    font-family: yuyu;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+.adress11 {
+    font-size: 20px;
+    text-decoration: none;
+    width: 200px;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.copyright1 {
+    font-size: 17px;
+    color: rgba(128, 128, 128, 0.664);
+}
